@@ -1,0 +1,36 @@
+﻿<Window x:Class="dog_api.MVVM.View.MainWindow" Icon="/Resurces/icon/dog.png"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dog_api" xmlns:viewmodels="clr-namespace:dog_api.MVVM.ViewModel" xmlns:local1="clr-namespace:dog_api.Resurces"
+        mc:Ignorable="d"
+        Title="DogApi Desktop" Height="550" Width="800" WindowStartupLocation="CenterScreen">
+    <Window.DataContext>
+        <viewmodels:MainViewModel/>
+    </Window.DataContext>
+    <Grid Background="#FF1E1E1E">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <Border BorderThickness="1" BorderBrush="Black" Margin="35">
+                <Image Stretch="UniformToFill" Source="{Binding DogImage}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                <ListView ItemsSource="{Binding Breeds}" 
+                          SelectedItem="{Binding SelectItem}" 
+                          SelectedIndex="1" 
+                          Margin="5"
+                          Background="Transparent" 
+                          Foreground="White"/>
+                <Button Content="Next dog" Cursor="Hand" Command="{Binding NextDog}"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

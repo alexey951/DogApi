@@ -1,0 +1,21 @@
+D:\project vs\dog api\bin\Debug\dog api.exe.config
+D:\project vs\dog api\bin\Debug\dog api.exe
+D:\project vs\dog api\bin\Debug\dog api.pdb
+D:\project vs\dog api\obj\Debug\dog api.csproj.AssemblyReference.cache
+D:\project vs\dog api\obj\Debug\dog api.csproj.SuggestedBindingRedirects.cache
+D:\project vs\dog api\obj\Debug\App.g.cs
+D:\project vs\dog api\obj\Debug\dog api_MarkupCompile.cache
+D:\project vs\dog api\obj\Debug\dog api_MarkupCompile.lref
+D:\project vs\dog api\obj\Debug\dog api.g.resources
+D:\project vs\dog api\obj\Debug\dog_api.Properties.Resources.resources
+D:\project vs\dog api\obj\Debug\dog api.csproj.GenerateResource.cache
+D:\project vs\dog api\obj\Debug\dog api.csproj.CoreCompileInputs.cache
+D:\project vs\dog api\obj\Debug\dog api.exe
+D:\project vs\dog api\obj\Debug\dog api.pdb
+D:\project vs\dog api\obj\Debug\App.baml
+D:\project vs\dog api\obj\Debug\MVVM\View\MainWindow.g.cs
+D:\project vs\dog api\bin\Debug\Newtonsoft.Json.dll
+D:\project vs\dog api\bin\Debug\Newtonsoft.Json.xml
+D:\project vs\dog api\obj\Debug\MVVM\View\MainWindow.baml
+D:\project vs\dog api\obj\Debug\dog api.csproj.CopyComplete
+D:\project vs\dog api\obj\Debug\GeneratedInternalTypeHelper.g.cs
